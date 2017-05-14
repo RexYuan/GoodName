@@ -63,3 +63,16 @@ p {
     margin-top: 2em !important;
     width: 500px;
 }
+
+.secondary {
+    width: 400px;
+    margin-top: 0.5em !important;
+    margin:0 auto;
+}
+.generate {
+    font-size: 2em;
+}
+.candidate {
+    margin-left: 1em;
+    font-size: 2em;
+}
