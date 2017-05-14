@@ -69,5 +69,10 @@ $(document).ready(function(){
                 setEndOfContenteditable(this);
             }
         }
+        else
+        {
+            $(this).html('');
+            $('.report').html('');
+        }
     });
 });
