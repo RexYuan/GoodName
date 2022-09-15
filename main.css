@@ -8,7 +8,7 @@ p {
 }
 
 .main {
-    width: 800px;
+    width: 70%;
     margin:0 auto;
 }
 
@@ -17,7 +17,7 @@ p {
     color: #333333;
     font-size: 3.5em;
     text-align: center;
-    width: 400px;
+    width: 80%;
     margin:0 auto;
 }
 
@@ -25,7 +25,7 @@ p {
     margin-top: 0.3em !important;
     margin-top: 2em;
     font-size: 5em;
-    width: 600px;
+    width: 40%;
     margin:0 auto;
     border-top-style: hidden;
     border-right-style: hidden;
@@ -61,18 +61,38 @@ p {
 
 .report {
     margin-top: 2em !important;
-    width: 500px;
+    width: 100%;
+    margin:0 auto;
+    text-align: center;
 }
 
 .secondary {
-    width: 400px;
+    text-align: center;
+    width: 100%;
     margin-top: 0.5em !important;
     margin:0 auto;
 }
 .generate {
     font-size: 2em;
+    cursor: pointer;
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    display: inline-block;
+    text-align: center;
 }
 .candidate {
     margin-left: 1em;
     font-size: 2em;
+    width: 20ch;
+    display: inline-block;
+}
+
+.footer {
+    font-size: 2.5em;
+    position: fixed;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
 }
